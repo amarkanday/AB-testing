@@ -748,9 +748,9 @@ mc_interaction = MultiComparison(pricing['Days'], pricing['interaction'])
 result_interaction = mc_interaction.tukeyhsd()
 print("Pairwise comparison for Interaction:")
 print(result_interaction)
-
+```
 #### Factorial Anova (Crossed factor design): Non parametric test 
-
+```python
 # Now we run the above test using a non-parametric approach 
 # Note: Non parametric tests typically suffer from Type 1 error for interaction terms
 
@@ -781,7 +781,7 @@ print("\nCorrected p-values (Holm method):")
 for i, pair in enumerate(test_pairs):
     print(f"{pair}: {p_corrected[i]:.4f}, reject H0: {reject[i]}")
 
-----
+```
 
 ### Generalized Linear Models 
 
@@ -880,7 +880,7 @@ for i, pref in enumerate(['A', 'B', 'C']):
 
 # Females do not prefer A 
 
-----
+```
 
 ##### Using GLM for poisson distributed data 
 
@@ -1031,3 +1031,4 @@ print(irr)
 print("Confidence Intervals for IRR:")
 conf_int = np.exp(poisson_model.conf_int().iloc[1:])
 print(conf_int)
+```
