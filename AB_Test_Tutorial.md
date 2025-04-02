@@ -1,6 +1,6 @@
 ---
 title: "Designing, Running, and Analyzing Experiments"
-author: "Ashish Markanday (Python conversion)"
+author: "Ashish Markanday"
 date: "04/01/2025"
 output: pdf_document
 ---
