@@ -1,6 +1,6 @@
 # Designing, Running, and Analyzing Experiments in Python
 
-**Author:** Ashish Markanday (Converted to Python by Claude)  
+**Author:** Ashish Markanday 
 **Date:** April 1, 2025
 
 ## Table of Contents
