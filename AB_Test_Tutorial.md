@@ -1,9 +1,3 @@
----
-title: "Designing, Running, and Analyzing Experiments"
-author: "Ashish Markanday"
-date: "04/01/2025"
-output: pdf_document
----
 
 ```python
 # Import necessary libraries
